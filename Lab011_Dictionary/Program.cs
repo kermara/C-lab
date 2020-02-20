@@ -4,18 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_001_Car
+namespace Lab011_Dictionary
 {
     class Program
     {
         static void Main(string[] args)
-
         {
-            Console.WriteLine("The program has started");
-            Car theCar = new Car();
-            Driver theDriver = new Driver(theCar);
+            Dictionary theDictionary = new Dictionary();
 
-            theDriver.Drive();
+            theDictionary.Translate();
+
+           
+
+
+
         }
     }
 }

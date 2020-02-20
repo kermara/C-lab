@@ -4,18 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_001_Car
+namespace Lab008_DieList
 {
     class Program
     {
         static void Main(string[] args)
-
         {
-            Console.WriteLine("The program has started");
-            Car theCar = new Car();
-            Driver theDriver = new Driver(theCar);
+            Die theDie = new Die();
 
-            theDriver.Drive();
+            Player thePlayer = new Player(theDie);
+
+            thePlayer.Play();
         }
     }
 }

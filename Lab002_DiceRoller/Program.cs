@@ -10,8 +10,11 @@ namespace Lab002_DiceRoller
     {
         static void Main(string[] args)
         {
-            Die theDie = new Die();
-            Player thePlayer = new Player(theDie);
+            Die theDie = new Die(1);
+            Die thisDie = new Die(2);
+            
+            Player thePlayer = new Player(theDie, thisDie);
+            
 
             thePlayer.Play();
             thePlayer.Play();

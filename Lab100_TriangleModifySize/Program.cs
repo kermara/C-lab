@@ -4,18 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_001_Car
+namespace Lab100_TriangleModifySize
 {
     class Program
     {
         static void Main(string[] args)
-
         {
-            Console.WriteLine("The program has started");
-            Car theCar = new Car();
-            Driver theDriver = new Driver(theCar);
-
-            theDriver.Drive();
         }
     }
 }

@@ -4,30 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab002_DiceRoller
+namespace Lab008_DieList
 {
-    public class Die
+    class Die
     {
         private Random random;
+        
 
-        public Die (int seednumber)
+        public Die()
         {
-            this.random = new Random(seednumber + DateTime.Now.Millisecond);
+            this.random = new Random();
+            
         }
-       
 
-  
-    public int Roll()
+        public int Roll()
         {
-           
             int randomDie = random.Next(1, 7);
-       
 
-            return randomDie;
 
            
+           return randomDie;
         }
 
 
     }
 }
+
