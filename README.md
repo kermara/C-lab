@@ -1,0 +1,1 @@
+School exercises programmed with C#
